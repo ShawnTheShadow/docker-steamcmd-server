@@ -11,7 +11,7 @@ Update Notice: Simply restart the container if a newer version of the game is av
 
 You can also run multiple servers with only one SteamCMD directory!
 
-## Example Env params for CS:Source
+## Example Env
 | Name | Value | Example |
 | --- | --- | --- |
 | STEAMCMD_DIR | Folder for SteamCMD | /serverdata/steamcmd |
