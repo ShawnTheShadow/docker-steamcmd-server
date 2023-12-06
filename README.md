@@ -29,7 +29,7 @@ You can also run multiple servers with only one SteamCMD directory!
 | USERNAME | Leave blank for anonymous login | blank |
 | PASSWRD | Leave blank for anonymous login | blank |
 
-## Run example for CS:Source
+## Run example
 ```
 docker run --name ARKSurvivalAscended -d \
 	-p 7777:7777/udp \
