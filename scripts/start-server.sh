@@ -191,12 +191,11 @@ if [ "${CARBON_MOD}" == "true" ]; then
   if [ "${FORCE_CARBON_INSTALLATION}" == "true" ]; then
     tar -xvf ${SERVER_DIR}/CarbonMod-${LAT_V}.tar.gz -C ${SERVER_DIR}
   fi
-
+  source "${SERVER_DIR}/carbon/tools/environment.sh"
 fi
 
 echo "---Prepare Server---"
 chmod -R ${DATA_PERM} ${DATA_DIR}
-source "${SERVER_DIR}/carbon/tools/environment.sh"
 echo "---Setting Library path---"
 export LD_LIBRARY_PATH=:/bin/RustDedicated_Data/Plugins/x86_64
 echo "---Server ready---"
